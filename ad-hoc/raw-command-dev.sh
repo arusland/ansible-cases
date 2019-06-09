@@ -1,0 +1,1 @@
+ansible dev -i hosts -u root -m raw -a /bin/date

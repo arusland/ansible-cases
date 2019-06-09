@@ -1,0 +1,3 @@
+ansible all -i hosts -u root -m raw -a /bin/date
+
+ansible all -i hosts -u root -m raw -a "free -m"
